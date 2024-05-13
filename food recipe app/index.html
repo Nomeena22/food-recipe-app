@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food recipe App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Recipes</h1>
+        <form action="">
+          <input
+            type="text"
+            placeholder="search for recipes"
+            class="searchbox"
+          />
+          <button type="submit" class="searchbtn">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="recipe-container"></div>
+        <div class="modal-container" style="display: none">
+          <div class="modal-content">
+            <div class="recipe-content"></div>
+
+            <button class="close-btn">Close</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
